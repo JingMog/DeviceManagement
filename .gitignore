@@ -4,6 +4,12 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+.DS_Store
+/__pycache__
+/.qt_for_python
+/UI
+
+
 # Other files and folders
 .settings/
 
