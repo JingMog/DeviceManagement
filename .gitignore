@@ -5,9 +5,11 @@ bin-release/
 [Bb]in/
 
 .DS_Store
-/__pycache__
-/.qt_for_python
-/UI
+
+# ignore the following files
+/DeviceManagement-master/__pycache__
+/DeviceManagement-master/.qt_for_python
+/DeviceManagement-master/UI
 
 
 # Other files and folders

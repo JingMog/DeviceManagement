@@ -125,7 +125,7 @@ class MainUi(QtWidgets.QMainWindow):
         self.recommend_button_2.setIcon(QtGui.QIcon('pics/elsa.JPG'))
         self.recommend_button_2.setIconSize(QtCore.QSize(150, 150))
         self.recommend_button_2.setToolButtonStyle(QtCore.Qt.ToolButtonTextUnderIcon)
- 
+
         self.recommend_button_3 = QtWidgets.QToolButton()
         font = QtGui.QFont()
         font.setFamily("STFangsong")
@@ -1460,14 +1460,11 @@ class user_information(QtWidgets.QMainWindow):
         event.accept()
 
 
-
-
-
-def main():
+if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     gui = MainUi("useperson001")
     gui.show()
     sys.exit(app.exec_())
- 
-if __name__ == '__main__':
-    main()
+    
+
+
